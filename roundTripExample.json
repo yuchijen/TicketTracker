@@ -1,0 +1,1879 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "fzyao6Nowaq2tbska0ODjp",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "LGW",
+     "city": "LON",
+     "name": "London Gatwick"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "OAK",
+     "city": "OAK",
+     "name": "Oakland Metropolitan International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SEA",
+     "city": "SEA",
+     "name": "Seattle/Tacoma Sea/Tac"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YEG",
+     "city": "YEA",
+     "name": "Edmonton International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YVR",
+     "city": "YVR",
+     "name": "Vancouver International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "YYC",
+     "city": "YYC",
+     "name": "Calgary International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "LON",
+     "name": "London"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "OAK",
+     "name": "Oakland"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SEA",
+     "name": "Seattle"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YEA",
+     "name": "Edmonton"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YVR",
+     "name": "Vancouver"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "YYC",
+     "name": "Calgary"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "739",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73G",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "73W",
+     "name": "Boeing 737"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "76W",
+     "name": "Boeing 767"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "788",
+     "name": "Boeing 787"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "789",
+     "name": "Boeing 787"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "CR7",
+     "name": "Canadair RJ 700"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "DH4",
+     "name": "De Havilland-Bombardier Dash-8"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "E75",
+     "name": "Embraer RJ-175"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XY",
+     "name": "US Immigration Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_002",
+     "name": "US International Departure Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XA",
+     "name": "USDA APHIS Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YC",
+     "name": "US Customs Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "GB_001",
+     "name": "United Kingdom Air Passengers Duty"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "WS YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "UB",
+     "name": "United Kingdom Passenger Service Charge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "AS",
+     "name": "Alaska Airlines Inc."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "DY",
+     "name": "Norwegian Air Shuttle A.S."
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "WS",
+     "name": "WestJet"
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD623.06",
+    "id": "6RFcDGEXrH6S0Cm2nE8nYD001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 605,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 605,
+        "flight": {
+         "carrier": "DY",
+         "number": "7074"
+        },
+        "id": "Gb0VT9h-fi4WuAAG",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LeBWVwhDG-64MZru",
+          "aircraft": "789",
+          "arrivalTime": "2016-10-14T14:00+01:00",
+          "departureTime": "2016-10-13T19:55-07:00",
+          "origin": "OAK",
+          "destination": "LGW",
+          "originTerminal": "1",
+          "destinationTerminal": "S",
+          "duration": 605,
+          "mileage": 5365,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 660,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 660,
+        "flight": {
+         "carrier": "DY",
+         "number": "7073"
+        },
+        "id": "GeqgDgyT+vVDBdSR",
+        "cabin": "COACH",
+        "bookingCode": "H",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lp3aqw291ELQsh0u",
+          "aircraft": "788",
+          "arrivalTime": "2016-10-23T16:00-07:00",
+          "departureTime": "2016-10-23T13:00+01:00",
+          "origin": "LGW",
+          "destination": "OAK",
+          "originTerminal": "S",
+          "destinationTerminal": "1",
+          "duration": 660,
+          "mileage": 5365,
+          "meal": "Food and Beverages for Purchase",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AUQMqqt3uJ2ikZHuRBvamEpfBDq1owdSEi7WlAVk9F8/",
+        "carrier": "DY",
+        "origin": "OAK",
+        "destination": "LON",
+        "basisCode": "HSRGB"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AUQMqqt3uJ2ikZHuRBvamEpfBDq1owdSEi7WlAVk9F8/",
+        "carrier": "DY",
+        "origin": "LON",
+        "destination": "OAK",
+        "basisCode": "HSRGB"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AUQMqqt3uJ2ikZHuRBvamEpfBDq1owdSEi7WlAVk9F8/",
+        "segmentId": "Gb0VT9h-fi4WuAAG"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AUQMqqt3uJ2ikZHuRBvamEpfBDq1owdSEi7WlAVk9F8/",
+        "segmentId": "GeqgDgyT+vVDBdSR"
+       }
+      ],
+      "baseFareTotal": "USD438.00",
+      "saleFareTotal": "USD438.00",
+      "saleTaxTotal": "USD185.06",
+      "saleTotal": "USD623.06",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD104.70"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD18.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       }
+      ],
+      "fareCalculation": "OAK DY LON Q40.92 178.00HSRGB DY OAK Q40.92 178.00HSRGB NUC 437.84 END ROE 1.00 FARE USD 438.00 XT 5.50YC 7.00XY 3.96XA 35.60US 5.60AY 104.70GB 18.20UB 4.50XF OAK4.50",
+      "latestTicketingTime": "2016-10-13T22:54-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD925.66",
+    "id": "6RFcDGEXrH6S0Cm2nE8nYD002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "AS",
+         "number": "3461"
+        },
+        "id": "GKIpkmHssyqdiRw7",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFLWFlGbcAY0pDbV",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-13T08:05-07:00",
+          "departureTime": "2016-10-13T06:00-07:00",
+          "origin": "OAK",
+          "destination": "SEA",
+          "originTerminal": "1",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 145
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 84,
+        "flight": {
+         "carrier": "AS",
+         "number": "784"
+        },
+        "id": "GQhD2csY7aL1WbSz",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LC4PTWn-B+hhmm+Q",
+          "aircraft": "739",
+          "arrivalTime": "2016-10-13T12:54-06:00",
+          "departureTime": "2016-10-13T10:30-07:00",
+          "origin": "SEA",
+          "destination": "YYC",
+          "duration": 84,
+          "mileage": 450,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 321
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 525,
+        "flight": {
+         "carrier": "WS",
+         "number": "1"
+        },
+        "id": "GCBus19JsML88cCF",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LIPCNrOB7jkEp-s8",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-14T10:00+01:00",
+          "departureTime": "2016-10-13T18:15-06:00",
+          "origin": "YYC",
+          "destination": "LGW",
+          "destinationTerminal": "N",
+          "duration": 525,
+          "mileage": 4381
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1223,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 565,
+        "flight": {
+         "carrier": "WS",
+         "number": "2"
+        },
+        "id": "GdLjsNfeJklyQmjs",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUWfIlMr7FAQTcDr",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-23T13:20-06:00",
+          "departureTime": "2016-10-23T10:55+01:00",
+          "origin": "LGW",
+          "destination": "YYC",
+          "originTerminal": "N",
+          "duration": 565,
+          "mileage": 4381
+         }
+        ],
+        "connectionDuration": 306
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 111,
+        "flight": {
+         "carrier": "AS",
+         "number": "2119"
+        },
+        "id": "GVb-TFnfuxVkVgyb",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "4",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqKx9IH0vKS5IakD",
+          "aircraft": "DH4",
+          "arrivalTime": "2016-10-23T19:17-07:00",
+          "departureTime": "2016-10-23T18:26-06:00",
+          "origin": "YYC",
+          "destination": "SEA",
+          "duration": 111,
+          "operatingDisclosure": "OPERATED BY HORIZON AIR AS ALASKAHORIZON",
+          "mileage": 450,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 118
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 123,
+        "flight": {
+         "carrier": "AS",
+         "number": "3486"
+        },
+        "id": "Gb+i-93nkIq92ijH",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "5",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9Jqkc5zE0+bGZ3D",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-23T23:18-07:00",
+          "departureTime": "2016-10-23T21:15-07:00",
+          "origin": "SEA",
+          "destination": "OAK",
+          "destinationTerminal": "1",
+          "duration": 123,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "carrier": "AS",
+        "origin": "OAK",
+        "destination": "YYC",
+        "basisCode": "T10JN5"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "carrier": "WS",
+        "origin": "YYC",
+        "destination": "LON",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "carrier": "WS",
+        "origin": "LON",
+        "destination": "YYC",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdATqyLUPvwJjxLzwLEV8DP4o40sV9SK9RGEo/tTyXBvYIE",
+        "carrier": "AS",
+        "origin": "YYC",
+        "destination": "OAK",
+        "basisCode": "V14N4"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "segmentId": "GQhD2csY7aL1WbSz"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdATqyLUPvwJjxLzwLEV8DP4o40sV9SK9RGEo/tTyXBvYIE",
+        "segmentId": "GVb-TFnfuxVkVgyb"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "segmentId": "GdLjsNfeJklyQmjs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "segmentId": "GKIpkmHssyqdiRw7"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "segmentId": "GCBus19JsML88cCF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdATqyLUPvwJjxLzwLEV8DP4o40sV9SK9RGEo/tTyXBvYIE",
+        "segmentId": "Gb+i-93nkIq92ijH"
+       }
+      ],
+      "baseFareTotal": "USD711.00",
+      "saleFareTotal": "USD711.00",
+      "saleTaxTotal": "USD214.66",
+      "saleTotal": "USD925.66",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD13.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD18.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD104.70"
+       }
+      ],
+      "fareCalculation": "OAK AS X/SEA AS X/YYC Q OAKYYC7.50 110.00T10JN5 WS LON 211.82DP WS X/YYC 211.82DP AS X/SEA AS OAK Q YYCOAK5.61 163.92V14N4 NUC 710.67 END ROE 1.00 FARE USD 711.00 XT 5.50YC 7.00XY 3.96XA 35.60US 11.20AY 104.70GB 18.20UB 15.00YQ 13.50XF OAK4.50 SEA4.50 SEA4.50",
+      "latestTicketingTime": "2016-04-25T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD928.66",
+    "id": "6RFcDGEXrH6S0Cm2nE8nYD004",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "AS",
+         "number": "3461"
+        },
+        "id": "GKIpkmHssyqdiRw7",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFLWFlGbcAY0pDbV",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-13T08:05-07:00",
+          "departureTime": "2016-10-13T06:00-07:00",
+          "origin": "OAK",
+          "destination": "SEA",
+          "originTerminal": "1",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 145
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 84,
+        "flight": {
+         "carrier": "AS",
+         "number": "784"
+        },
+        "id": "GQhD2csY7aL1WbSz",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LC4PTWn-B+hhmm+Q",
+          "aircraft": "739",
+          "arrivalTime": "2016-10-13T12:54-06:00",
+          "departureTime": "2016-10-13T10:30-07:00",
+          "origin": "SEA",
+          "destination": "YYC",
+          "duration": 84,
+          "mileage": 450,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 321
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 525,
+        "flight": {
+         "carrier": "WS",
+         "number": "1"
+        },
+        "id": "GCBus19JsML88cCF",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LIPCNrOB7jkEp-s8",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-14T10:00+01:00",
+          "departureTime": "2016-10-13T18:15-06:00",
+          "origin": "YYC",
+          "destination": "LGW",
+          "destinationTerminal": "N",
+          "duration": 525,
+          "mileage": 4381
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1223,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 565,
+        "flight": {
+         "carrier": "WS",
+         "number": "2"
+        },
+        "id": "GdLjsNfeJklyQmjs",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUWfIlMr7FAQTcDr",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-23T13:20-06:00",
+          "departureTime": "2016-10-23T10:55+01:00",
+          "origin": "LGW",
+          "destination": "YYC",
+          "originTerminal": "N",
+          "duration": 565,
+          "mileage": 4381
+         }
+        ],
+        "connectionDuration": 110
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 57,
+        "flight": {
+         "carrier": "WS",
+         "number": "3243"
+        },
+        "id": "Gsui9YzfO257xyZz",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "4",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LdP6dXOcajovfSUJ",
+          "aircraft": "DH4",
+          "arrivalTime": "2016-10-23T16:07-06:00",
+          "departureTime": "2016-10-23T15:10-06:00",
+          "origin": "YYC",
+          "destination": "YEG",
+          "duration": 57,
+          "operatingDisclosure": "OPERATED BY WESTJET ENCORE",
+          "mileage": 152
+         }
+        ],
+        "connectionDuration": 143
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 122,
+        "flight": {
+         "carrier": "AS",
+         "number": "2583"
+        },
+        "id": "GS1DU9iV0z0U9-nB",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "5",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "Lcch26L5uQk3Zs41",
+          "aircraft": "DH4",
+          "arrivalTime": "2016-10-23T19:32-07:00",
+          "departureTime": "2016-10-23T18:30-06:00",
+          "origin": "YEG",
+          "destination": "SEA",
+          "duration": 122,
+          "operatingDisclosure": "OPERATED BY HORIZON AIR AS ALASKAHORIZON",
+          "mileage": 557,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 103
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 123,
+        "flight": {
+         "carrier": "AS",
+         "number": "3486"
+        },
+        "id": "Gb+i-93nkIq92ijH",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "6",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9Jqkc5zE0+bGZ3D",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-23T23:18-07:00",
+          "departureTime": "2016-10-23T21:15-07:00",
+          "origin": "SEA",
+          "destination": "OAK",
+          "destinationTerminal": "1",
+          "duration": 123,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "carrier": "AS",
+        "origin": "OAK",
+        "destination": "YYC",
+        "basisCode": "T10JN5"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "carrier": "WS",
+        "origin": "YYC",
+        "destination": "LON",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "ASOuenqPF57CKwhlwse3CVaotf8Cydi5aD9QFDHOfwwg",
+        "carrier": "WS",
+        "origin": "LON",
+        "destination": "YEA",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Aayq2QOrPrEaME+jioaj6MllogPGkDZrMRu7tHyOdDxVrgE",
+        "carrier": "AS",
+        "origin": "YEA",
+        "destination": "OAK",
+        "basisCode": "V14N4"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "segmentId": "GQhD2csY7aL1WbSz"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASOuenqPF57CKwhlwse3CVaotf8Cydi5aD9QFDHOfwwg",
+        "segmentId": "GdLjsNfeJklyQmjs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "segmentId": "GKIpkmHssyqdiRw7"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aayq2QOrPrEaME+jioaj6MllogPGkDZrMRu7tHyOdDxVrgE",
+        "segmentId": "GS1DU9iV0z0U9-nB"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "ASOuenqPF57CKwhlwse3CVaotf8Cydi5aD9QFDHOfwwg",
+        "segmentId": "Gsui9YzfO257xyZz"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "segmentId": "GCBus19JsML88cCF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Aayq2QOrPrEaME+jioaj6MllogPGkDZrMRu7tHyOdDxVrgE",
+        "segmentId": "Gb+i-93nkIq92ijH"
+       }
+      ],
+      "baseFareTotal": "USD714.00",
+      "saleFareTotal": "USD714.00",
+      "saleTaxTotal": "USD214.66",
+      "saleTotal": "USD928.66",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD13.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD18.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD104.70"
+       }
+      ],
+      "fareCalculation": "OAK AS X/SEA AS X/YYC Q OAKYYC7.50 110.00T10JN5 WS LON 211.82DP WS X/YYC WS X/YEA 209.58DP AS X/SEA AS OAK Q YEGOAK5.61 169.91V14N4 NUC 714.42 END ROE 1.00 FARE USD 714.00 XT 5.50YC 7.00XY 3.96XA 35.60US 11.20AY 104.70GB 18.20UB 15.00YQ 13.50XF OAK4.50 SEA4.50 SEA4.50",
+      "latestTicketingTime": "2016-04-25T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD930.66",
+    "id": "6RFcDGEXrH6S0Cm2nE8nYD005",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "AS",
+         "number": "3461"
+        },
+        "id": "GKIpkmHssyqdiRw7",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFLWFlGbcAY0pDbV",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-13T08:05-07:00",
+          "departureTime": "2016-10-13T06:00-07:00",
+          "origin": "OAK",
+          "destination": "SEA",
+          "originTerminal": "1",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 175
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 60,
+        "flight": {
+         "carrier": "AS",
+         "number": "701"
+        },
+        "id": "GvcC8LFf5XbXYuuQ",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LvPFyZilvsoqocb5",
+          "aircraft": "73G",
+          "arrivalTime": "2016-10-13T12:00-07:00",
+          "departureTime": "2016-10-13T11:00-07:00",
+          "origin": "SEA",
+          "destination": "YVR",
+          "destinationTerminal": "M",
+          "duration": 60,
+          "mileage": 127,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 180
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 81,
+        "flight": {
+         "carrier": "WS",
+         "number": "566"
+        },
+        "id": "GAWThotm6kiDZ+zx",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LkGaderoDikQhfij",
+          "aircraft": "73W",
+          "arrivalTime": "2016-10-13T17:21-06:00",
+          "departureTime": "2016-10-13T15:00-07:00",
+          "origin": "YVR",
+          "destination": "YYC",
+          "originTerminal": "M",
+          "duration": 81,
+          "mileage": 426
+         }
+        ],
+        "connectionDuration": 54
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 525,
+        "flight": {
+         "carrier": "WS",
+         "number": "1"
+        },
+        "id": "GCBus19JsML88cCF",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LIPCNrOB7jkEp-s8",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-14T10:00+01:00",
+          "departureTime": "2016-10-13T18:15-06:00",
+          "origin": "YYC",
+          "destination": "LGW",
+          "destinationTerminal": "N",
+          "duration": 525,
+          "mileage": 4381
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1223,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 565,
+        "flight": {
+         "carrier": "WS",
+         "number": "2"
+        },
+        "id": "GdLjsNfeJklyQmjs",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "4",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUWfIlMr7FAQTcDr",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-23T13:20-06:00",
+          "departureTime": "2016-10-23T10:55+01:00",
+          "origin": "LGW",
+          "destination": "YYC",
+          "originTerminal": "N",
+          "duration": 565,
+          "mileage": 4381
+         }
+        ],
+        "connectionDuration": 306
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 111,
+        "flight": {
+         "carrier": "AS",
+         "number": "2119"
+        },
+        "id": "GVb-TFnfuxVkVgyb",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "5",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LqKx9IH0vKS5IakD",
+          "aircraft": "DH4",
+          "arrivalTime": "2016-10-23T19:17-07:00",
+          "departureTime": "2016-10-23T18:26-06:00",
+          "origin": "YYC",
+          "destination": "SEA",
+          "duration": 111,
+          "operatingDisclosure": "OPERATED BY HORIZON AIR AS ALASKAHORIZON",
+          "mileage": 450,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 118
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 123,
+        "flight": {
+         "carrier": "AS",
+         "number": "3486"
+        },
+        "id": "Gb+i-93nkIq92ijH",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "6",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9Jqkc5zE0+bGZ3D",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-23T23:18-07:00",
+          "departureTime": "2016-10-23T21:15-07:00",
+          "origin": "SEA",
+          "destination": "OAK",
+          "destinationTerminal": "1",
+          "duration": 123,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AELiTbpSSOPSyN+TjdmMZdlyOS8Wmw7RFDeF79mK44l5HU/",
+        "carrier": "AS",
+        "origin": "OAK",
+        "destination": "YVR",
+        "basisCode": "T07JN5"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AH8yWfoMdG/RdGoISdp6C2fJ93fRDRGAMF2haUfZbe5c",
+        "carrier": "WS",
+        "origin": "YVR",
+        "destination": "LON",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "carrier": "WS",
+        "origin": "LON",
+        "destination": "YYC",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AdATqyLUPvwJjxLzwLEV8DP4o40sV9SK9RGEo/tTyXBvYIE",
+        "carrier": "AS",
+        "origin": "YYC",
+        "destination": "OAK",
+        "basisCode": "V14N4"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AH8yWfoMdG/RdGoISdp6C2fJ93fRDRGAMF2haUfZbe5c",
+        "segmentId": "GAWThotm6kiDZ+zx"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdATqyLUPvwJjxLzwLEV8DP4o40sV9SK9RGEo/tTyXBvYIE",
+        "segmentId": "GVb-TFnfuxVkVgyb"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AELiTbpSSOPSyN+TjdmMZdlyOS8Wmw7RFDeF79mK44l5HU/",
+        "segmentId": "GvcC8LFf5XbXYuuQ"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "segmentId": "GdLjsNfeJklyQmjs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AELiTbpSSOPSyN+TjdmMZdlyOS8Wmw7RFDeF79mK44l5HU/",
+        "segmentId": "GKIpkmHssyqdiRw7"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AH8yWfoMdG/RdGoISdp6C2fJ93fRDRGAMF2haUfZbe5c",
+        "segmentId": "GCBus19JsML88cCF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AdATqyLUPvwJjxLzwLEV8DP4o40sV9SK9RGEo/tTyXBvYIE",
+        "segmentId": "Gb+i-93nkIq92ijH"
+       }
+      ],
+      "baseFareTotal": "USD716.00",
+      "saleFareTotal": "USD716.00",
+      "saleTaxTotal": "USD214.66",
+      "saleTotal": "USD930.66",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD13.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD18.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD104.70"
+       }
+      ],
+      "fareCalculation": "OAK AS X/SEA AS X/YVR Q OAKYVR7.50 110.00T07JN5 WS X/YYC WS LON 217.06DP WS X/YYC 211.82DP AS X/SEA AS OAK Q YYCOAK5.61 163.92V14N4 NUC 715.91 END ROE 1.00 FARE USD 716.00 XT 5.50YC 7.00XY 3.96XA 35.60US 11.20AY 104.70GB 18.20UB 15.00YQ 13.50XF OAK4.50 SEA4.50 SEA4.50",
+      "latestTicketingTime": "2016-04-25T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD952.66",
+    "id": "6RFcDGEXrH6S0Cm2nE8nYD003",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1200,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 125,
+        "flight": {
+         "carrier": "AS",
+         "number": "3461"
+        },
+        "id": "GKIpkmHssyqdiRw7",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 4,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LFLWFlGbcAY0pDbV",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-13T08:05-07:00",
+          "departureTime": "2016-10-13T06:00-07:00",
+          "origin": "OAK",
+          "destination": "SEA",
+          "originTerminal": "1",
+          "duration": 125,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 145
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 84,
+        "flight": {
+         "carrier": "AS",
+         "number": "784"
+        },
+        "id": "GQhD2csY7aL1WbSz",
+        "cabin": "COACH",
+        "bookingCode": "T",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "1",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LC4PTWn-B+hhmm+Q",
+          "aircraft": "739",
+          "arrivalTime": "2016-10-13T12:54-06:00",
+          "departureTime": "2016-10-13T10:30-07:00",
+          "origin": "SEA",
+          "destination": "YYC",
+          "duration": 84,
+          "mileage": 450,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 321
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 525,
+        "flight": {
+         "carrier": "WS",
+         "number": "1"
+        },
+        "id": "GCBus19JsML88cCF",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "2",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LIPCNrOB7jkEp-s8",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-14T10:00+01:00",
+          "departureTime": "2016-10-13T18:15-06:00",
+          "origin": "YYC",
+          "destination": "LGW",
+          "destinationTerminal": "N",
+          "duration": 525,
+          "mileage": 4381
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 1223,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 565,
+        "flight": {
+         "carrier": "WS",
+         "number": "2"
+        },
+        "id": "GdLjsNfeJklyQmjs",
+        "cabin": "COACH",
+        "bookingCode": "D",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "3",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LUWfIlMr7FAQTcDr",
+          "aircraft": "76W",
+          "arrivalTime": "2016-10-23T13:20-06:00",
+          "departureTime": "2016-10-23T10:55+01:00",
+          "origin": "LGW",
+          "destination": "YYC",
+          "originTerminal": "N",
+          "duration": 565,
+          "mileage": 4381
+         }
+        ],
+        "connectionDuration": 285
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 112,
+        "flight": {
+         "carrier": "WS",
+         "number": "7123"
+        },
+        "id": "GnuCLRjyst6MkDeB",
+        "cabin": "COACH",
+        "bookingCode": "P",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "4",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LVgQEJ+5TfNm04T+",
+          "aircraft": "CR7",
+          "arrivalTime": "2016-10-23T18:57-07:00",
+          "departureTime": "2016-10-23T18:05-06:00",
+          "origin": "YYC",
+          "destination": "SEA",
+          "duration": 112,
+          "operatingDisclosure": "OPERATED BY SKYWEST DBA DELTA CONNECTION",
+          "mileage": 450,
+          "secure": true
+         }
+        ],
+        "connectionDuration": 138
+       },
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 123,
+        "flight": {
+         "carrier": "AS",
+         "number": "3486"
+        },
+        "id": "Gb+i-93nkIq92ijH",
+        "cabin": "COACH",
+        "bookingCode": "V",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "5",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "L9Jqkc5zE0+bGZ3D",
+          "aircraft": "E75",
+          "arrivalTime": "2016-10-23T23:18-07:00",
+          "departureTime": "2016-10-23T21:15-07:00",
+          "origin": "SEA",
+          "destination": "OAK",
+          "destinationTerminal": "1",
+          "duration": 123,
+          "operatingDisclosure": "OPERATED BY SKYWEST AIRLINES AS ALASKASKYWEST",
+          "mileage": 671,
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "carrier": "AS",
+        "origin": "OAK",
+        "destination": "YYC",
+        "basisCode": "T10JN5"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "carrier": "WS",
+        "origin": "YYC",
+        "destination": "LON",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "carrier": "WS",
+        "origin": "LON",
+        "destination": "YYC",
+        "basisCode": "DP"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "A1iSgD0Ku35yNfC+1BeuaHRpl8MFaIqobJdAvZHtjJo",
+        "carrier": "WS",
+        "origin": "YYC",
+        "destination": "SEA",
+        "basisCode": "PO21"
+       },
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ar+9f0QUViiS69lrbmd9qKA/9JEk85daerB9tEtpoNgM",
+        "carrier": "AS",
+        "origin": "SEA",
+        "destination": "OAK",
+        "basisCode": "V14N4"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "segmentId": "GQhD2csY7aL1WbSz"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "segmentId": "GdLjsNfeJklyQmjs"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A6QVQAewQXlAybUWOcer31dj7AQ+IUFK+mPIrjZcGycMFwU",
+        "segmentId": "GKIpkmHssyqdiRw7"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "A1iSgD0Ku35yNfC+1BeuaHRpl8MFaIqobJdAvZHtjJo",
+        "segmentId": "GnuCLRjyst6MkDeB"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "AK1UD2nDTTgiLstijjncvqP4iy32M/aZsHPVknxwGd6Q",
+        "segmentId": "GCBus19JsML88cCF"
+       },
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ar+9f0QUViiS69lrbmd9qKA/9JEk85daerB9tEtpoNgM",
+        "segmentId": "Gb+i-93nkIq92ijH"
+       }
+      ],
+      "baseFareTotal": "USD738.00",
+      "saleFareTotal": "USD738.00",
+      "saleTaxTotal": "USD214.66",
+      "saleTotal": "USD952.66",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD15.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD11.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD13.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XA",
+        "chargeType": "GOVERNMENT",
+        "code": "XA",
+        "country": "US",
+        "salePrice": "USD3.96"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XY",
+        "chargeType": "GOVERNMENT",
+        "code": "XY",
+        "country": "US",
+        "salePrice": "USD7.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YC",
+        "chargeType": "GOVERNMENT",
+        "code": "YC",
+        "country": "US",
+        "salePrice": "USD5.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "UB",
+        "chargeType": "GOVERNMENT",
+        "code": "UB",
+        "country": "GB",
+        "salePrice": "USD18.20"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "GB_001",
+        "chargeType": "GOVERNMENT",
+        "code": "GB",
+        "country": "GB",
+        "salePrice": "USD104.70"
+       }
+      ],
+      "fareCalculation": "OAK AS X/SEA AS X/YYC Q OAKYYC7.50 110.00T10JN5 WS LON 211.82DP WS X/YYC 211.82DP WS X/SEA 86.82PO21 AS OAK 109.77V14N4 NUC 737.73 END ROE 1.00 FARE USD 738.00 XT 5.50YC 7.00XY 3.96XA 35.60US 11.20AY 104.70GB 18.20UB 15.00YQ 13.50XF OAK4.50 SEA4.50 SEA4.50",
+      "latestTicketingTime": "2016-04-25T23:59-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
