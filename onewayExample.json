@@ -1,0 +1,296 @@
+{
+ "kind": "qpxExpress#tripsSearch",
+ "trips": {
+  "kind": "qpxexpress#tripOptions",
+  "requestId": "SNYMxmwxNNKdjr3CD0ODeM",
+  "data": {
+   "kind": "qpxexpress#data",
+   "airport": [
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "SFO",
+     "city": "SFO",
+     "name": "San Francisco International"
+    },
+    {
+     "kind": "qpxexpress#airportData",
+     "code": "TPE",
+     "city": "TPE",
+     "name": "Taipei Taiwan Taoyuan International"
+    }
+   ],
+   "city": [
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "SFO",
+     "name": "San Francisco"
+    },
+    {
+     "kind": "qpxexpress#cityData",
+     "code": "TPE",
+     "name": "Taipei"
+    }
+   ],
+   "aircraft": [
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "77W",
+     "name": "Boeing 777"
+    },
+    {
+     "kind": "qpxexpress#aircraftData",
+     "code": "789",
+     "name": "Boeing 787"
+    }
+   ],
+   "tax": [
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "AY_001",
+     "name": "US September 11th Security Fee"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "US_002",
+     "name": "US International Departure Tax"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "YQ_I",
+     "name": "UA YQ surcharge"
+    },
+    {
+     "kind": "qpxexpress#taxData",
+     "id": "XF",
+     "name": "US Passenger Facility Charge"
+    }
+   ],
+   "carrier": [
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "CI",
+     "name": "China Airlines"
+    },
+    {
+     "kind": "qpxexpress#carrierData",
+     "code": "UA",
+     "name": "United Airlines, Inc."
+    }
+   ]
+  },
+  "tripOption": [
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD501.90",
+    "id": "SLPnNVTSWOATJoil0OOQcC001",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 800,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 800,
+        "flight": {
+         "carrier": "CI",
+         "number": "3"
+        },
+        "id": "GIpUg2PXRaZQUjeS",
+        "cabin": "COACH",
+        "bookingCode": "N",
+        "bookingCodeCount": 7,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LN6NPyLaXpHZAgwK",
+          "aircraft": "77W",
+          "arrivalTime": "2016-04-28T06:00+08:00",
+          "departureTime": "2016-04-27T01:40-07:00",
+          "origin": "SFO",
+          "destination": "TPE",
+          "originTerminal": "I",
+          "destinationTerminal": "2",
+          "duration": 800,
+          "mileage": 6453,
+          "meal": "Meal",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Auuwx06UuzpwW9o25l4Zy8DQIe+XcU/uvbSIaoHus/LE",
+        "carrier": "CI",
+        "origin": "SFO",
+        "destination": "TPE",
+        "basisCode": "NLXSO"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Auuwx06UuzpwW9o25l4Zy8DQIe+XcU/uvbSIaoHus/LE",
+        "segmentId": "GIpUg2PXRaZQUjeS"
+       }
+      ],
+      "baseFareTotal": "USD474.00",
+      "saleFareTotal": "USD474.00",
+      "saleTaxTotal": "USD27.90",
+      "saleTotal": "USD501.90",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       }
+      ],
+      "fareCalculation": "SFO CI TPE 474.00NLXSO NUC 474.00 END ROE 1.00 FARE USD 474.00 XT 17.80US 5.60AY 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-04-26T23:59-04:00",
+      "ptc": "ADT",
+      "refundable": true
+     }
+    ]
+   },
+   {
+    "kind": "qpxexpress#tripOption",
+    "saleTotal": "USD547.90",
+    "id": "SLPnNVTSWOATJoil0OOQcC002",
+    "slice": [
+     {
+      "kind": "qpxexpress#sliceInfo",
+      "duration": 830,
+      "segment": [
+       {
+        "kind": "qpxexpress#segmentInfo",
+        "duration": 830,
+        "flight": {
+         "carrier": "UA",
+         "number": "871"
+        },
+        "id": "GmLhNa+LgdUD6bDp",
+        "cabin": "COACH",
+        "bookingCode": "W",
+        "bookingCodeCount": 9,
+        "marriedSegmentGroup": "0",
+        "leg": [
+         {
+          "kind": "qpxexpress#legInfo",
+          "id": "LpvNaR7XHWcn6Xog",
+          "aircraft": "789",
+          "arrivalTime": "2016-04-28T18:30+08:00",
+          "departureTime": "2016-04-27T13:40-07:00",
+          "origin": "SFO",
+          "destination": "TPE",
+          "originTerminal": "I",
+          "destinationTerminal": "2",
+          "duration": 830,
+          "mileage": 6453,
+          "meal": "Lunch",
+          "secure": true
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "pricing": [
+     {
+      "kind": "qpxexpress#pricingInfo",
+      "fare": [
+       {
+        "kind": "qpxexpress#fareInfo",
+        "id": "Ag8N+x1/dLSqp6pqMgRBqq/SHOW4vD6ir+RoFr84Ftss",
+        "carrier": "UA",
+        "origin": "SFO",
+        "destination": "TPE",
+        "basisCode": "WLX0IGM3"
+       }
+      ],
+      "segmentPricing": [
+       {
+        "kind": "qpxexpress#segmentPricing",
+        "fareId": "Ag8N+x1/dLSqp6pqMgRBqq/SHOW4vD6ir+RoFr84Ftss",
+        "segmentId": "GmLhNa+LgdUD6bDp"
+       }
+      ],
+      "baseFareTotal": "USD468.00",
+      "saleFareTotal": "USD468.00",
+      "saleTaxTotal": "USD79.90",
+      "saleTotal": "USD547.90",
+      "passengers": {
+       "kind": "qpxexpress#passengerCounts",
+       "adultCount": 1
+      },
+      "tax": [
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "YQ_I",
+        "chargeType": "CARRIER_SURCHARGE",
+        "code": "YQ",
+        "salePrice": "USD52.00"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "US_002",
+        "chargeType": "GOVERNMENT",
+        "code": "US",
+        "country": "US",
+        "salePrice": "USD17.80"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "AY_001",
+        "chargeType": "GOVERNMENT",
+        "code": "AY",
+        "country": "US",
+        "salePrice": "USD5.60"
+       },
+       {
+        "kind": "qpxexpress#taxInfo",
+        "id": "XF",
+        "chargeType": "GOVERNMENT",
+        "code": "XF",
+        "country": "US",
+        "salePrice": "USD4.50"
+       }
+      ],
+      "fareCalculation": "SFO UA TPE 468.00WLX0IGM3 NUC 468.00 END ROE 1.00 FARE USD 468.00 XT 17.80US 5.60AY 52.00YQ 4.50XF SFO4.50",
+      "latestTicketingTime": "2016-04-27T16:39-04:00",
+      "ptc": "ADT"
+     }
+    ]
+   }
+  ]
+ }
+}
