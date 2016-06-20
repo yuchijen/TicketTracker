@@ -14,7 +14,6 @@ angular.module('TicketTrackerApp')
                 }
             );
 
-
             //menuFactory.getDish(0)
             //.then(
             //    function (response) {
@@ -42,7 +41,6 @@ angular.module('TicketTrackerApp')
         .controller('MenuController', ['$scope', 'menuFactory', function ($scope, menuFactory) {
             $scope.showMenu = false;
             $scope.message = "Loading ...";
-
 
             menuFactory.getResult().query(
                 function (response) {
@@ -102,40 +100,30 @@ angular.module('TicketTrackerApp')
             };
         }])
         .controller('ContactController', ['$scope', function ($scope) {
-            //$scope.feedback = {mychannel:"", firstName:"", lastName:"", agree:false, email:"" };
-            //            var channels = [{value:"tel", label:"Tel."}, {value:"Email",label:"Email"}];
-            //            $scope.channels = channels;
-            //$scope.invalidChannelSelection = false;
 
         }])
-        .controller('SearchController', ['$scope', 'searchFactory', function ($scope, searchFactory) {
+        .controller('SearchController', ['$scope', 'searchFactory', '$http', function ($scope, searchFactory, $http) {
             $scope.onewayClick = function ($event) {
                 if ($event)
                     $scope.search.returnDate = '';
             }
 
+            $scope.loading = false;
+
             $scope.myDate = new Date();
 
             var defaultForm = {
-                oneway : false,
-                from : '',
-                to : '',
-                fromDate : '',
-                returnDate : ''                
+                oneway: false,
+                from: '',
+                to: '',
+                fromDate: '',
+                returnDate: ''
             };
 
             $scope.search = angular.copy(defaultForm);
-            //$scope.results = searchFactory.getResults();
-
-            //searchFactory.getResults().query(
-            //    function (response) {
-            //        $scope.results = response;
-            //        //$scope.showMenu = true;
-            //    },
-            //    function (response) {
-            //        $scope.message = "Error: " + response.status + " " + response.statusText;
-            //    });
-
+            
+            $scope.results = [];
+            
             $scope.sendSearch = function () {
                 console.log($scope.search);
                 if (!$scope.search.oneway && ($scope.search.returnDate == "")) {
@@ -143,14 +131,47 @@ angular.module('TicketTrackerApp')
                     $scope.invalidSearchForm = true;
                     console.log('incorrect');
                 }
-                else {
-                    $scope.showMessage = true;
-                    $scope.message = 'loading...';
+                else
+                {                    
+                    $scope.loading = true;
+                    searchFactory.getFlightResults()
+                        .then(function (data) {
+                            //$("#result").empty().append(data.trips.tripOption[0].saleTotal);
+                            //$scope.results = data;
+
+                            for (var i = 0; i < data.trips.tripOption.length; i++)
+                            {
+                                var result =
+                                    {
+                                        price: data.trips.tripOption[i].saleTotal,
+                                        departure : data.trips.tripOption[i].slice[0].segment[0].leg[0].departureTime,
+                                        arrival : data.trips.tripOption[i].slice[0].segment[data.trips.tripOption[i].slice[0].segment.length-1].leg[0].arrivalTime,
+                                        duration : data.trips.tripOption[i].slice[0].duration,
+                                        returnDeparture : data.trips.tripOption[i].slice[1].segment[0].leg[0].departureTime,
+                                        returnArrival : data.trips.tripOption[i].slice[1].segment[data.trips.tripOption[i].slice[1].segment.length-1].leg[0].arrivalTime,
+                                        returnDuration: data.trips.tripOption[i].slice[1].duration,
+                                        airline :data.trips.tripOption[i].slice[0].segment[0].flight.carrier,
+                                        tracked : false
+                                    };
+
+                                $scope.results.push(result);
+                            }
+
+
+                            $scope.loading = false;
+                        }, function (error) {
+                            // promise rejected, could log the error with: console.log('error', error);
+                            $scope.loading = false;
+                            alert(data);
+                        });
+
+                    //$scope.showMessage = true;
+                    //$scope.message = 'loading...';
                     $scope.invalidSearchForm = false;
-                    //$scope.search = {mychannel:"", firstName:"", lastName:"", agree:false, email:"" };
-                    //$scope.search.mychannel="";
-                    $scope.results = searchFactory.getResults();
-                    $scope.showMessage = false;
+                    ////$scope.search = {mychannel:"", firstName:"", lastName:"", agree:false, email:"" };
+                    ////$scope.search.mychannel="";
+                    //$scope.results = searchFactory.getResults();
+                    //$scope.showMessage = false;
                     $scope.searchForm.$setPristine();
                     $scope.search = angular.copy(defaultForm);
                     console.log($scope.search);

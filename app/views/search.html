@@ -54,6 +54,7 @@
                                     ng-model="search.fromDate">
                                 <span ng-show=" searchForm.fromDate.$error.required && !searchForm.fromDate.$pristine" class="help-block">From Date is required.</span>
                             </div>
+                        </div>
                     </td>
                     <td>
                         <div class="form-group" ng-class="{ 'has-error' : searchForm.returnDate.$error.required && !searchForm.returnDate.$pristine }">
@@ -85,7 +86,11 @@
             <div class="col-xs-12" ng-if="showMessage">
                 <h3>{{message}}</h3>
             </div>
+            <div id="result"></div>
             <div class="table-responsive">
+                <div ng-show="loading">
+                    <img id="loadingImg" src="images/loading.gif" />
+                </div>
                 <table class="table table-striped">
                     <tr>
                         <th>Price
@@ -94,29 +99,40 @@
                         </th>
                         <th>Arrival
                         </th>
-                        <th>Airline
-                        </th>
                         <th>Duration
                         </th>
-                        <th>Track exact date?                            
+                        
+                        <th ng-show="!search.oneway">Return Departure
                         </th>
+                        <th ng-show="!search.oneway">Return Arrival
+                        </th>
+                        <th ng-show="!search.oneway">Return Duration
+                        </th>
+                        
+                        <th>Airline
+                        </th>                        
                         <th>Track?
                         </th>
                     </tr>
                     <tr ng-repeat="result in results ">
                         <td>{{result.price}}
-                        </td>
+                        </td>                        
                         <td>{{result.departure}}
                         </td>
                         <td>{{result.arrival}}
                         </td>
-                        <td>{{result.airline}}
-                        </td>
                         <td>{{result.duration}}
                         </td>
-                        <td>
-                            <input type="checkbox" name="trackExactDate" id="trackExactDate" ng-model="result.trackExactDate" />
+
+                        <td ng-show="!search.oneway">{{result.returnDeparture}}
                         </td>
+                        <td ng-show="!search.oneway">{{result.returnArrival}}
+                        </td>
+                        <td ng-show="!search.oneway">{{result.returnDuration}}
+                        </td>
+
+                        <td>{{result.airline}}
+                        </td>                        
                         <td>
                             <input type="checkbox" name="track" ng-show="!result.tracked" />
                             <span ng-show="result.tracked">Already tracked</span>
@@ -148,7 +164,7 @@
                 <h2 class="media-heading">{{promotion.name}}
                            
                     <span class="badge">{{promotion.price | currency}}
-                            </span>
+                    </span>
                 </h2>
                 <label class="col-sm-2 control-label">{{promotion.label}}</label>
                 <p>{{promotion.description}}</p>
@@ -172,7 +188,7 @@
                 <h2 class="media-heading">{{chef.name}}
                            
                     <span class="badge">{{chef.abbr}}
-                            </span>
+                    </span>
                 </h2>
                 <label class="col-sm-2 control-label">{{chef.designation}}</label>
                 <p>{{chef.description}}</p>

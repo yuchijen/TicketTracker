@@ -14,7 +14,6 @@ angular.module('TicketTrackerApp')
                     price: '19.99',
                     description: 'Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person ',
                 }
-
     ];
 
     this.getResult = function () {
@@ -33,11 +32,8 @@ angular.module('TicketTrackerApp')
         return promotions[index];
     };
 
-    // implement a function named getPromotion
-    // that returns a selected promotion.
-
 }])
-.factory('searchFactory', function () {
+.factory('searchFactory', ['$http', '$q', function ($http, $q) {
 
     var searchFac = {};
     var mockResults = [
@@ -70,11 +66,54 @@ angular.module('TicketTrackerApp')
         }
     ];
 
-    searchFac.getResults = function () { return mockResults; }
-    searchFac.getResult = function (index) { return mockResults[index]; }
+    var sendInfo =
+    {
+        "request": {
+            "slice": [
+              {
+                  "origin": "OAK",
+                  "destination": "LGW",
+                  "date": "2016-10-13"
+              },
+              {
+                  "origin": "LGW",
+                  "destination": "OAK",
+                  "date": "2016-10-23"
+              }
+            ],
+            "passengers": {
+                "adultCount": 1,
+                "infantInLapCount": 0,
+                "infantInSeatCount": 0,
+                "childCount": 0,
+                "seniorCount": 0
+            },
+            "solutions": 5,
+            "refundable": false
+        }
+    };
+
+    var searchUrl = 'https://www.googleapis.com/qpxExpress/v1/trips/search?key=AIzaSyC0Ddbey10qdy7dFDyFHkOUkkpiQL7KVww';
+
+    
+    searchFac.getFlightResults = function () {
+        return $http({
+            url: searchUrl,
+            method: "POST",
+            data: JSON.stringify(sendInfo),
+            headers: { 'Content-Type': 'application/json' }
+        }).then(function (response) {
+            return response.data;
+            //$scope.users = data.users; 
+        }, function (response) {
+            return $q.reject(response.data);
+        });
+    }
+
+    //searchFac.getResult = function (index) { return mockResults[index]; }
 
     return searchFac;
-})
+}])
 .factory('corporateFactory', function () {
 
     var corpfac = {};
